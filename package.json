@@ -1,0 +1,39 @@
+{
+  "name": "markwrite",
+  "version": "1.0.0",
+  "main": "electron.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@emotion/css": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@types/marked": "^4.3.0",
+    "electron-is-dev": "^2.0.0",
+    "marked": "^5.0.1",
+    "solid-app-router": "^0.4.2",
+    "solid-js": "^1.7.5",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "electron": "^24.2.0",
+    "electron-builder": "^23.6.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "esbuild": "^0.17.18",
+    "sass": "^1.62.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}

@@ -1,0 +1,57 @@
+@import '../colors'
+
+.container
+  width: 100%
+  pointer-events: auto
+  padding: 1rem 2rem
+
+h1, h2, h3, h4, h5, h6
+  color: $header-color
+  margin: 1rem 0
+
+p
+  margin: 1rem 0
+
+em
+  font-style: italic
+
+strong
+  font-weight: bold
+
+hr
+  border: none
+  border-top: 1px solid $text-color
+  margin: 1rem 0
+
+img
+  max-width: 100%
+  height: auto
+
+a
+  color: $link-color
+  text-decoration: none
+  transition: color 0.2s ease-in-out
+
+  &:hover
+    color: lighten($link-color, 20%)
+
+ol, ul
+  margin: 1rem 0
+  padding-left: 2rem
+
+  li
+    margin-bottom: 0.5rem
+
+code, pre
+  font-family: Consolas, monospace
+  background-color: darken($background-color, 10%)
+  color: $text-color
+  padding: 0.5rem
+
+blockquote
+  color: $blockquote-color
+  font-style: italic
+  border-left: 4px solid $blockquote-color
+  padding-left: 1rem
+  margin: 1rem 0
+
