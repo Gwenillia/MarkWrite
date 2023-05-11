@@ -6,7 +6,6 @@ export const Aside = () => {
   const [title, setTitle] = createSignal(fileContentStore.getContent().split('\n')[0]);
   createEffect(() => {
     return fileContentStore.subscribe((content) => {
-      console.log(content)
       setTitle(content.split('\n')[0]);
     });
   });
