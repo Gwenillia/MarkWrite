@@ -1,2 +1,2 @@
 # MarkWrite
-Electron svelte markdown editor
+Electron SolidJs markdown editor
